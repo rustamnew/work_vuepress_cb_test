@@ -18,10 +18,10 @@ jobs:
           fetch-depth: 0
 
       - name: Setup npm
-        #uses: npm/action-setup
-        with:
+        uses: npm/action-setup@v2
+      #  with:
           # choose pnpm version to use
-          #version: 8
+      #    version: 7
           # install deps with pnpm
           run_install: true
 
