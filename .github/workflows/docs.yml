@@ -49,6 +49,6 @@ jobs:
           # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist
         env:
-          repository: https://github.com/rustamnew/work_vuepress_cb_test.git
+          #repository: https://github.com/rustamnew/work_vuepress_cb_test.git
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
