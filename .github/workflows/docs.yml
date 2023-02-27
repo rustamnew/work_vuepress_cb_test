@@ -13,17 +13,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Setup npm
+        run: npm install
         with:
           # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
 
-      - name: Setup npm
-        uses: npm/action-setup@v2
-        with:
-          # choose npm version to use
-          version: 7
-          # install deps with npm
-          run_install: true
+      #- name: Setup npm
+      #  uses: npm/action-setup@v2
+      #  with:
+      #    # choose npm version to use
+      #    version: 7
+      #    # install deps with npm
+      #    run_install: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
