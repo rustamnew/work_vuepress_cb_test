@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 
 export default {
     lang: 'ru-RU',
-    base: '/testdoc/',
+    base: '/work_vuepress_cb_test/',
     title: 'Clientbase Test Doc',
     description: 'clientbase test documentation site',
     theme: defaultTheme({
